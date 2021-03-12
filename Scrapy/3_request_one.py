@@ -18,5 +18,5 @@ print("웹 스크래핑을 진행합니다")
 print(len(res.text))
 print(res.text)
 #정보 받은것까찌 해봄
-with open("mygoogle.html", "w", encoding="utf-8") as f:
+with open("2_mygoogle.html", "w", encoding="utf-8") as f:
     f.write(res.text)
